@@ -7,5 +7,5 @@ https://boracodar.dev
 
 **Front-end:** HTML e CSS
 
-![App Screenshot](https://github.com/WesleyDevop/bora-codar-rocketseat/blob/main/assets/layout.png?raw=true)
+![App Screenshot](https://github.com/WesleyDevop/bora-codar-rocketseat/blob/main/01/assets/layout.png?raw=true)
 
