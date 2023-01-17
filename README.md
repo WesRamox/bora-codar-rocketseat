@@ -10,4 +10,4 @@ https://boracodar.dev
 
 **Front-end:** HTML, CSS & Javascript
 
-![App Screenshot]([https://github.com/WesleyDevop/bora-codar-rocketseat/blob/main/01/assets/layout.png?raw=true](https://www.figma.com/file/yQ7JOJGbpX89H3wROrzsu3/%23boraCodar---Desafio-2-(Copy)?node-id=1%3A282&t=i3jUgMpFy0AAHpi8-4))
+![App Screenshot](https://snipboard.io/B6jaJy.jpg)
