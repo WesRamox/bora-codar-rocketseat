@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #271A45;
+    /* border: solid red 1px; */
+}
+
+h1 {
+    font-family: 'Crimson Pro', serif;
+}
+
+.container {
+    height: 100vh;
+    background-color: #D9CDF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productAll {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+small, p {
+    font-family: 'Lato', sans-serif;
+}
+
+small {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productImage {
+    width: 600px;
+}
+
+.addCart {
+    padding: 10px 20px 10px 20px;
+    background: none;
+    border-radius: 20px;
+    border: solid 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 200px;
+    transition: all 0.5s ease-out;
+}
+
+.addCart:hover {
+    background-color: #271A45;
+    color: white;
+    cursor: pointer;
+    border: #271A45 1px solid;
+    transition: all 0.5s ease;
+}
+
+.item {
+    margin: 5px;
+}
+
+.rotate {
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.rotate:hover {
+    transition: 1s all;
+    transform: rotate(360deg);
+}
+
+@media (max-width: 921px) {
+    .productAll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .productImage {
+        width: 100%;
+    }
+    .rotate {
+        position: fixed;
+        bottom: 500px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
